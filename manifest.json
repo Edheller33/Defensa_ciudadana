@@ -1,26 +1,66 @@
 {
   "name": "Defensa Ciudadana 2026",
-  "short_name": "Defensa Ciudadana",
-  "description": "Guía legal para conocer y defender tus derechos ciudadanos. Zapopan, Jalisco.",
+  "short_name": "Defensa",
+  "description": "Guía legal y protocolo de derechos ciudadanos — Zapopan, Jalisco",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "portrait-primary",
+  "orientation": "portrait",
   "background_color": "#0d1b2a",
   "theme_color": "#0d1b2a",
   "lang": "es-MX",
+  "categories": [
+    "education",
+    "utilities"
+  ],
   "icons": [
     {
       "src": "icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "icon-512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Emergencia",
+      "url": "./index.html#sos",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Protocolo de detención",
+      "url": "./index.html#protocolo",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Registro de incidente",
+      "url": "./index.html#log",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
     }
   ]
 }
